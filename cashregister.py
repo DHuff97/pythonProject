@@ -22,13 +22,13 @@ elif c == ("y"):
 
 
 t = t / 100
-price1 = (t*f)
-price = (t*s)
-total_price = (f+s+price+price1)
-d_price = (f + s)
+
+total_price = (f+s)
+d_price = (f + s) * t
+discount = (d_price + total_price)
 print(f"Base price = {base_price:.2f}")
-print(f"Price after discounts = {d_price:.2f}")
-print(f"Total price = {total_price:.2f}")
+print(f"Price after discounts = {total_price:.2f}")
+print(f"Total price = {discount:.2f}")
 
 
 
