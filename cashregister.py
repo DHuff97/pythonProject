@@ -1,10 +1,10 @@
-f = float(input("Enter price of the first item:"))
+f = float(input("Enter price of the first item: "))
 
-s = float(input("Enter price of the second item:"))
+s = float(input("Enter price of the second item: "))
 
-c = input("Does customer have a club card?(Y/N):")
+c = input("Does customer have a club card ?(Y/N): ")
 
-t = float(input("Enter tax rate,e.g 5.5 for 5.5% tax:"))
+t = float(input("Enter tax rate, e.g 5.5 for 5.5% tax: "))
 base_price = (f+s)
 
 if f >= s:
