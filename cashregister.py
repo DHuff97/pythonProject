@@ -9,25 +9,17 @@ base_price = (f+s)
 
 if f >= s:
     s = float(s * .5)
-    s = round(s, 2)
-    f = round(f, 2)
-
 else:
     f = float(f * .5)
-    s = round(s, 2)
-    f = round(f, 2)
+
 
 if c == ("Y"):
     f = float(f * .90)
     s = float(s * .90)
-    s = round(s, 2)
-    f = round(f, 2)
-
 elif c == ("y"):
     f = float(f * .90)
     s = float(s * .90)
-    s = round(s, 2)
-    f = round(f, 2)
+
 
 t = t / 100
 price1 = (t*f)
