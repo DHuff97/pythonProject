@@ -25,7 +25,6 @@ t = t / 100
 price1 = (t*f)
 price = (t*s)
 total_price = (f+s+price+price1)
-total_price = round(total_price, 2)
 d_price = (f + s)
 print(f"Base price = {base_price:.2f}")
 print(f"Price after discounts = {d_price:.2f}")
